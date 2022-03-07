@@ -1,0 +1,15 @@
+.header__forSection {
+  min-height: 120px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  font-style: normal;
+  justify-content: center;
+}

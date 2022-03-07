@@ -1,0 +1,8 @@
+.service__list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  align-content: space-around;
+  justify-items: center;
+  text-align: center;
+}

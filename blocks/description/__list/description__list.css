@@ -1,0 +1,22 @@
+.description__list {
+    display: flex;
+    flex-direction: column;
+    min-height: 960px;
+    min-width: 840px;
+    align-content: space-around;
+    justify-items: center;
+}
+
+h3 {
+    font-size: 70px;
+line-height: 118%;
+letter-spacing: 0.05em;
+font-style: normal;
+font-weight: 500;
+margin: 70px auto 70px 100px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}

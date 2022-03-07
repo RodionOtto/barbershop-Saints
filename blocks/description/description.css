@@ -1,0 +1,8 @@
+.description {
+  margin: 0 auto;
+  padding: 0;
+  min-height: 960px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

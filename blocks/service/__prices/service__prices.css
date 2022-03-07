@@ -1,0 +1,7 @@
+.service__prices {
+    background-image: url(../../../images/prices.svg);
+    background-size: contain;
+  width: 378px;
+  height: 365px;
+  margin: 0 auto;
+}

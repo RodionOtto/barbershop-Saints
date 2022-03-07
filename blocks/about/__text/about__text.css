@@ -1,0 +1,11 @@
+.about__text {
+    font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 150%;
+margin: 0px 64px 0px 130px;
+}
+
+.about__text:last-child {
+    margin-top: 50px;
+}

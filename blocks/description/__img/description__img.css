@@ -1,0 +1,14 @@
+.description__img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 830px;
+}
+
+.interior1 {
+  background-image: url(../../../images/block1_Interior1.jpg);
+}
+
+.interior2 {
+  background-image: url(../../../images/block1_Interior2.jpg);
+}

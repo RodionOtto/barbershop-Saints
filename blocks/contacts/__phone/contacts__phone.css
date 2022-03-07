@@ -1,0 +1,11 @@
+.contacts__phone {
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.contacts__phone:hover {
+    cursor: pointer;
+  opacity: 0.6;
+}
+

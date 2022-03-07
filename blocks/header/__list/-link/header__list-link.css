@@ -1,0 +1,20 @@
+.header__list-link {
+  text-decoration: none;
+  transition: opacity 0.4s ease-in-out;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  font-style: normal;
+  padding-left: 58px;
+  margin: 0 auto;
+  color: white;
+}
+
+.first {
+  padding-left: 0px;
+}
+
+.header__list-link:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}

@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/__forSection/header__forSection.css);
+@import url(../blocks/bookBtn/bookBtn.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list/-link/header__list-link.css);
+@import url(../blocks/header/__phone/header__phone.css);
+@import url(../blocks/header/content/header__content.css);
+
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__img/description__img.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/description/__values/description__values.css);
+@import url(../blocks/description/__images/description__images.css);
+@import url(../blocks/description/__values/-item/description__values-item.css);
+
+@import url(../blocks/service/service.css);
+@import url(../blocks/service/__img/service__img.css);
+@import url(../blocks/service/__list/service__list.css);
+@import url(../blocks/service/__header/service__header.css);
+@import url(../blocks/service/__prices/service__prices.css);
+@import url(../blocks/service/__text/service__text.css);
+@import url(../blocks/service/__position/service__position.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__position/about__position.css);
+@import url(../blocks/about/__list/about__list.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__phone/contacts__phone.css);
+@import url(../blocks/contacts/__inst/contacts__inst.css);
+@import url(../blocks/contacts/__mail/contacts__mail.css);
+@import url(../blocks/contacts/__position/contacts__position.css);
+@import url(../blocks/contacts/__map/contacts__map.css);
+

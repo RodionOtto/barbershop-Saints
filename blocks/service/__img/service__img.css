@@ -1,0 +1,15 @@
+.service__img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 50%;
+  min-height: 960px;
+}
+
+.service__interior {
+  background-image: url(../../../images/block2_Interior1.jpg);
+}
+
+.about__interior {
+  background-image: url(../../../images/block3_Interior1.jpg);
+}

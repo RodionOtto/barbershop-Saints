@@ -1,0 +1,10 @@
+.contacts__mail {
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.contacts__mail:hover {
+    cursor: pointer;
+  opacity: 0.6;
+}

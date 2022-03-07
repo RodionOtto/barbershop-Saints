@@ -1,0 +1,10 @@
+.contacts__map {
+    width: 50%;
+    height: 960px;
+    display: flex;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}

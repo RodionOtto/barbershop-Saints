@@ -1,0 +1,12 @@
+.contacts__inst {
+    transition: opacity 0.4s ease-in-out;
+    color: black;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contacts__inst:hover {
+    cursor: pointer;
+  opacity: 0.7;
+}
