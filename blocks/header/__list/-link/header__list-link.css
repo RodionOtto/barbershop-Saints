@@ -5,13 +5,8 @@
   font-size: 30px;
   line-height: 100%;
   font-style: normal;
-  padding-left: 58px;
   margin: 0 auto;
   color: white;
-}
-
-.first {
-  padding-left: 0px;
 }
 
 .header__list-link:hover {

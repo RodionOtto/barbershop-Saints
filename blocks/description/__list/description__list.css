@@ -1,10 +1,11 @@
 .description__list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 960px;
     min-width: 840px;
-    align-content: space-around;
-    justify-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
 }
 
 h3 {
@@ -13,10 +14,12 @@ line-height: 118%;
 letter-spacing: 0.05em;
 font-style: normal;
 font-weight: 500;
-margin: 70px auto 70px 100px;
+margin: 70px auto 40px 0px;
 }
 
 ul {
     list-style: none;
     padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 70px;
 }
