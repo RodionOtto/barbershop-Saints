@@ -1,0 +1,48 @@
+.service__phonescreen {
+    display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .service__phonescreen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        min-width: 320px;
+        width: 100%;
+        min-height: 520px;
+        
+    }
+
+    .service__phonescreen-background {
+        background-image: url(../../../images/phone_Interior2.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-width: 320px;
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .service__phonescreen .header__forSection {
+        display: flex;
+        min-width: 320px;
+        width: 100%;
+        min-height: 120px;
+    }
+
+    .service__phonescreen .service__prices {
+        position: relative;
+        min-width: 320px;
+        width: 90%;
+        min-height: 360px;
+        background-image: url(../../../images/prices_phone.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

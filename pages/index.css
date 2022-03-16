@@ -16,6 +16,7 @@
 @import url(../blocks/description/__values/description__values.css);
 @import url(../blocks/description/__images/description__images.css);
 @import url(../blocks/description/__values/-item/description__values-item.css);
+@import url(../blocks/description/phonescreen/description__phonescreen.css);
 
 @import url(../blocks/service/service.css);
 @import url(../blocks/service/__img/service__img.css);
@@ -24,11 +25,13 @@
 @import url(../blocks/service/__prices/service__prices.css);
 @import url(../blocks/service/__text/service__text.css);
 @import url(../blocks/service/__position/service__position.css);
+@import url(../blocks/service/__phonescreen/service__phonescreen.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__text/about__text.css);
 @import url(../blocks/about/__position/about__position.css);
 @import url(../blocks/about/__list/about__list.css);
+@import url(../blocks/about/__phonescreen/about__phonescreen.css);
 
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/contacts/__list/contacts__list.css);
@@ -37,4 +40,4 @@
 @import url(../blocks/contacts/__mail/contacts__mail.css);
 @import url(../blocks/contacts/__position/contacts__position.css);
 @import url(../blocks/contacts/__map/contacts__map.css);
-
+@import url(../blocks/contacts/__phonescreen/contacts__phonescreen.css);

@@ -4,3 +4,9 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .about {
+    min-height: 520px;
+  }
+}

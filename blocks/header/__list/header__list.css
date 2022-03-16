@@ -13,3 +13,9 @@
 .header__list li:first-of-type {
   margin-left: 0px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__list {
+    display: none;
+  }
+}

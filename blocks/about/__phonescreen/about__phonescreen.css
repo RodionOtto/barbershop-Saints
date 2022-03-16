@@ -1,0 +1,27 @@
+.about__phonescreen {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .about__phonescreen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 320px;
+        width: 100%;
+        min-height: 400px;
+        background-image: url(../../../images/block1_Interior2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+
+    .about__phonescreen p {
+        width: 80%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}

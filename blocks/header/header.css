@@ -17,3 +17,18 @@
 main {
   padding-top: 120px;
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    min-height: 120px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  z-index: 10;
+  }
+}

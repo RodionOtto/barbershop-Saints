@@ -4,3 +4,13 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .service .header__forSection {
+    display: none;
+  }
+
+  .service {
+    min-height: 520px;
+  }
+}

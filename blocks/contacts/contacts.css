@@ -4,3 +4,9 @@
   margin: 0 auto;
   padding: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    min-height: 720px;
+  }
+}
