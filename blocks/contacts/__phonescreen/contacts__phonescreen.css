@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .contacts__phonescreen {
         display: flex;
         flex-direction: column;
@@ -24,5 +24,6 @@
 
     .contacts__phonescreen hr {
         margin: 15px auto 15px;
+        height: 1px;
     }
 }
