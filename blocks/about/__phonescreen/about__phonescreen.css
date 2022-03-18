@@ -11,17 +11,30 @@
         min-width: 320px;
         width: 100%;
         min-height: 400px;
-        background-image: url(../../../images/block1_Interior2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        position: relative;
         color: white;
     }
 
+    .about__phonescreen .about__phonescreen-background {
+        background-image: url(../../../images/block3_Interior1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .7;
+    }
+
     .about__phonescreen p {
+        position: relative;
+        z-index: 3;
         width: 80%;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
+        color: white;
     }
 }
