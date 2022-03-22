@@ -20,6 +20,7 @@ jobs:
           password: ${{ secrets.KEY }}
           envs: APP_DIR_ROOT
           script: |
+            echo $APP_DIR_ROOT
             cd $APP_DIR_ROOT
             git fetch
             git rebase origin/main
