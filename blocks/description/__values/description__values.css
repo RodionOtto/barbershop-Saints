@@ -6,8 +6,15 @@
     display: flex;
     flex-direction: column;
     min-height: 420px;
-    min-width: 700px;
+    min-width: 368px;
     padding: 0px;
     align-content: space-between;
     margin: 0 auto 80px 100px;
 }
+
+
+@media screen and (min-width: 1023px) and (max-width: 1843px) {
+    .description__values {
+        font-size: 25px;
+    }
+  }

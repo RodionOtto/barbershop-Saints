@@ -9,3 +9,9 @@ margin: 0px 64px 0px 130px;
 .about__text:last-child {
     margin-top: 50px;
 }
+
+@media screen and (min-width: 1023px) and (max-width: 1843px) {
+    .about__text {
+        font-size: 25px;
+    }
+  }

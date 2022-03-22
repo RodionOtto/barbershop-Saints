@@ -12,3 +12,9 @@
 .interior2 {
   background-image: url(../../../images/block1_Interior2.jpg);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1843px) {
+  .interior2 {
+    display: none;
+  }
+}
