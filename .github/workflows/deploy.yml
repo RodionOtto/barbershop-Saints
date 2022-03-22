@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+
+env:
+  APP_DIR_ROOT: ${{ secrets.APP_DIR_ROOT }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -14,7 +18,8 @@ jobs:
           port: ${{ secrets.PORT }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.KEY }}
+          envs: APP_DIR_ROOT
           script: |
-            cd ${{ secrets.APP_DIR_ROOT }}
+            cd $APP_DIR_ROOT
             git fetch
             git rebase origin/main
