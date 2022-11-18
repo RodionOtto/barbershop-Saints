@@ -16,7 +16,8 @@
     }
 
     .service__phonescreen-background {
-        background-image: url(../../../images/phone_Interior2.svg);
+        /* background-image: url(../../../images/phone_Interior2.svg); */
+        background-color: white;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -40,7 +41,7 @@
         min-width: 320px;
         width: 90%;
         min-height: 360px;
-        background-image: url(../../../images/prices_phone.svg);
+        background-image: url(../../../images/prices_phone.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
